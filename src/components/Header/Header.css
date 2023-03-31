@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    z-index: 10000000;
+    width: 100%;
+    background-color: var(--title-color);
+
+
+}
+
+.navbar__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li a {
+    font-size: 1.2em;
+    color: white;
+}
+.navbar li a:hover {
+    color: #ddd;
+}
+
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}

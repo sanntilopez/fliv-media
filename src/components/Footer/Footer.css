@@ -1,0 +1,30 @@
+.footer {
+    padding: 3rem 0
+}
+
+.footer a {
+    color: var(--text-color-light);
+
+}
+
+.footer a:hover {
+    color: #ffff00;
+}
+.footer a:hover > i {
+    color: #ffff00;
+  } 
+
+@media (max-width: 400px) {
+    .redes {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+@media (max-width: 768px) {
+    footer h3 {
+        text-align: center;
+    }
+    .redes {
+        justify-content: center !important;
+    }
+}

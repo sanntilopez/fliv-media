@@ -1,0 +1,41 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    position: relative;
+    background: url("../../../public/img/hero.jpg");
+    background-position: top;
+    background-size: cover;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 1rem;
+  }
+
+  .hero h3 {
+    font-size: 1.2em;
+    color: var(--text-color);
+  }
+
+  .agendar {
+    width:fit-content;
+  }
+
+  .agendar {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid black;
+    color: #000;
+    padding: .6rem 1rem;
+    font-size: 1.2em;
+    font-weight: var(--font-medium);
+    cursor: pointer;
+  }
+  
+  .agendar:hover {
+    background-color: black;
+    color: white;
+  }
+  

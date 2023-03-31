@@ -1,0 +1,8 @@
+.servicios__box div div {
+    box-shadow: 0 0 8px  #0005;
+    padding: 2rem;
+}
+
+.servicios__box div img {
+    width: 150px;
+}
